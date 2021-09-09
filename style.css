@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    margin: 4rem auto 7rem;
+    
+    text-align: center;
+}
+
+h1{
+    display: block;
+    padding: 1rem;
+    margin:2rem
+
+}
+.input-label{
+    display: block;
+    font-size: large;
+    font-weight: 600;
+}
+.input {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+}
+.change-button{
+    display: block;
+    padding:0.7rem 1rem ;
+    
+    border: none;
+
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+}
+
+table{
+    margin: 1.5rem auto;
+    
+}
+td,th {
+    border: 0.5px solid black;
+ 
+    padding: 1rem;
+    font-size: large;
+}
+  footer {
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    padding: 1.5rem;
+  }

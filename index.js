@@ -1,5 +1,5 @@
-var billAmt=document.querySelector(".billamt")
-var amtGiven=document.querySelector(".amtgiven")
+var billAmt=document.querySelector("#billamt")
+var amtGiven=document.querySelector("#amtgiven")
 var calculate=document.querySelector("button")
 const noteNumber=document.querySelectorAll(".no-of-notes")
 
@@ -27,5 +27,4 @@ function calculateChange(change){
     
 }
 
-/*Doesnt accept all nos look into it
-Add styling*/
+/*Doesnt accept all nos look into it*/

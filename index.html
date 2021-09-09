@@ -4,41 +4,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>💵 Register</title>
+    <!---->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>Cash Register</h1>
+    
+    
     <main>
-    <label for="">Bill Amount</label>
-    <input type="number" placeholder="Enter in rupees the bill" class="billamt">
-    <label for="">Cash Given</label>
-    <input type="number" placeholder="Enter in rupees the amount given" class="amtgiven">
-    <button type="button" name="button" >Change</button>
-    <table>
-        <tr>
-            <th>No of Notes</th>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-            <td class="no-of-notes"></td>
-        </tr>
-        <tr>
-            <th>Note</th>
-            <td>2000</td>
-            <td>500</td>
-            <td>100</td>
-            <td>20</td>
-            <td>10</td>
-            <td>5</td>
-            <td>1</td>
-        </tr>
-    </table>
+        <header>
+            <h1>Cash Register</h1>
+        </header>
+        <section>
+            <label class="input-label"for="">Bill Amount</label>
+            <input class="input" type="number" placeholder="Enter in rupees the bill" id="billamt">
+            <label class="input-label" for="">Cash Given</label>
+            <input class="input" type="number" placeholder="Enter in rupees the amount given" id="amtgiven">
+            <button class="change-button"  type="button" name="button" >Change</button>
+            <table>
+                <tr>
+                    <th>No of Notes</th>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    
+                </tr>
+                <tr>
+                    <th>Note</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </section>
+        <footer>social handles here</footer> 
     </main>
-    <footer>social handles here</footer>   
+      
     <script src="/index.js"></script>
 </body>
 </html>
