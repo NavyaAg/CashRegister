@@ -1,18 +1,20 @@
 var billAmt=document.querySelector("#billamt")
 var amtGiven=document.querySelector("#amtgiven")
 var calculate=document.querySelector("button")
+var message=document.querySelector(".message")
 const noteNumber=document.querySelectorAll(".no-of-notes")
 
 const denomination=[2000,500,100,20,10,5,1]
 calculate.addEventListener("click",function validateAmt(){
-    if(billAmt.value>0 &&  amtGiven.value>=billAmt.value)
+    if(Number(billAmt.value)>0 && Number( amtGiven.value)>= Number(billAmt.value))
     {
         var moneyLeft=amtGiven.value-billAmt.value;
+        message.innerText="Here is the change you have to give"
       calculateChange(moneyLeft)
     }
     else
     {
-        alert("amt unavalid")
+        message.innerText="How about doing the dishes instead ?"
     }
 })
 
@@ -27,4 +29,3 @@ function calculateChange(change){
     
 }
 
-/*Doesnt accept all nos look into it*/
